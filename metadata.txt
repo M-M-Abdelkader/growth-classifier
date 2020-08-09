@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Growth Classifier
+qgisMinimumVersion=3.0
+description=This plugin identifies patch growth type
+version=0.1
+author=Mahmood Abdelkader/Ahmed Elseicy
+email=m.m.i.abdelkader@gmail.com - ahmed.elcc@gmail.com
+
+about=This plugin identifies patch growth into 8 types
+
+tracker=https://github.com/M-M-Abdelkader/growth-classifier/issues
+repository=https://github.com/M-M-Abdelkader/growth-classifier
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=vector Growth Classifier
+
+homepage=https://m-m-abdelkader.github.io/growth-classifier
+category=Analysis
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
