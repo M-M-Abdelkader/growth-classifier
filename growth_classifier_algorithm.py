@@ -477,7 +477,7 @@ class GrowthClassifierAlgorithm(QgsProcessingAlgorithm):
             feedback.setCurrentStep(25)
             if feedback.isCanceled():
                 return {}
-            extract_expression = '( \"width\"   >= {0} AND  \"height\"  <= {1} )  OR  (   \"height\"    >= {1} AND   \"width\"   <= {0} ) '.format(
+            extract_expression = '( \"width\"   >= {0} AND  \"height\"  <= {1} )  OR  (   \"height\"    >= {0} AND   \"width\"   <= {1} ) '.format(
                 in_width, in_height)
             # Extract_linear_branch_MBGs_
             alg_params = {
